@@ -1,4 +1,4 @@
-# CWSpostediting
+# Sequence to sequence Chinese word segmention (CWS) post-editing 
 
 ## Usage 
 
