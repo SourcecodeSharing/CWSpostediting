@@ -1,4 +1,7 @@
-# CWSpostediting
+# Sequence to sequence Chinese word segmenation (CWS) post-editing
+
+## Require
+#### Python 2.7X
 
 ## Usage 
 
