@@ -19,7 +19,7 @@ test_data/
 
 `segmentent.txt` is an example of CWS output file containing tranlsations errors.
 
-`out.txt` the output file of post-editing
+`out.txt` the output file of post-editing.
 
 To see the testing case, please run 
 ```
