@@ -20,7 +20,7 @@ test_data/
 ```
 `original_input.txt` is an example of original input file.
 
-`segmentent.txt` is an example of CWS output file containing tranlsations errors.
+`segmentent.txt` is an example of segmented file containing tranlsations errors.
 
 `out.txt` the output file of post-editing.
 
