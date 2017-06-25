@@ -9,7 +9,7 @@
 python cws_postediting.py --ori=<original inputfile> --seg=<segmented inputfile> --out=<post-editing outputfile>
 ```
 
-### Example
+## Example
 
 Files in `test_data/` are examples.
 ```
