@@ -30,5 +30,8 @@ python cws_postediting.py
 ```
 or
 ```
-python cws_postediting.py --ori=./test_data/original_input.txt --seg=./test_data/segmented.txt --out=./test_data/out.txt
+python cws_postediting.py 
+--ori=./test_data/original_input.txt \
+--seg=./test_data/segmented.txt \ 
+--out=./test_data/out.txt
 ```
