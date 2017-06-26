@@ -1,7 +1,8 @@
 # Sequence to sequence Chinese word segmenation (CWS) post-editing
 
 ## Require
-#### Python 2.7x
+#### Environment：Python 2.7x
+#### Encoding format：UTF8
 
 ## Usage 
 
