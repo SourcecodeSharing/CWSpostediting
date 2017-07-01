@@ -2,7 +2,7 @@
 
 ## Require
 #### Environment：Python 2.7x
-#### Encoding format：UTF8
+#### Encoding Format：UTF8
 
 ## Usage 
 
