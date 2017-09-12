@@ -1,4 +1,4 @@
-# Sequence to sequence Chinese word segmenation (CWS) post-editing
+# Sequence to sequence Chinese word segmentation (CWS) post-editing
 
 ## Require
 #### Environment：Python 2.7x
