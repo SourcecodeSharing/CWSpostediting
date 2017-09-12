@@ -187,6 +187,14 @@ def getLength(sequence):
   sequence = sequence.replace("UNK", "€")
   return len(' '.join(sequence.strip().decode('utf8')).encode('utf8').split())
 
+def is_different(s1, s2):
+  w1 = s1.decode('utf8')
+  w2 = s2.replace(' ', '').decode('utf8')
+  for i in range(len(w1)):
+    if w1[i] != w2[i]:
+      print w1[i]
+      return True
+  return False
 
 def CWS_post_editing(orifilename, segfilename, outfilename):
   ori_sentences = open(orifilename, 'r').readlines()
@@ -206,7 +214,7 @@ def CWS_post_editing(orifilename, segfilename, outfilename):
         print "seg", seg_sentences[i].strip()
         print "res", res
         count += 1
-      elif ori_length == seg_length and seg_sentences[i].find('UNK') >= 0:
+      elif ori_length == seg_length and is_different(ori_sentences[i], seg_sentences[i]):
         print i
         _, label_list = label_BMES(seg_sentences[i].strip())
         res = ""
