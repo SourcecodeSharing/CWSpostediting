@@ -1,5 +1,7 @@
 # Sequence to sequence Chinese word segmentation (CWS) post-editing
 
+This repository is an implement of the post-editing method of the paper: Neural Chinese Word Segmentation as Sequence to Sequence Translation
+
 ## Require
 #### Environment：Python 2.7x
 #### Encoding Format：UTF8
